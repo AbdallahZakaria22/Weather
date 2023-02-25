@@ -1,0 +1,242 @@
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+
+nav {
+    background-color: #1e202b !important;
+}
+
+.logo-text {
+    font-size: 10px !important;
+    cursor: pointer;
+}
+
+ul li a {
+    padding: 5px 25px !important;
+    border: 2px solid transparent;
+    border-radius: 30px;
+    color: white !important;
+    transition: 0.3s ease !important;
+    font-weight: 400 !important;
+}
+
+ul li {
+    margin-left: 10px;
+}
+
+ul li a.active {
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+
+ul li a:hover {
+    border-color: #009ad8;
+    color: #009ad8 !important;
+}
+
+.backimg {
+    background-size: cover;
+    padding: 70px 0;
+    min-height: 350px;
+}
+
+
+
+.find-location {
+    position: relative;
+    margin-bottom: 70px;
+}
+
+form input {
+    outline: none;
+    border: none;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+#search {
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+}
+
+#submit {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    bottom: 5px;
+    padding: 0 40px !important;
+    border: none;
+    background: #009ad8;
+    border-radius: 30px !important;
+    color: white;
+}
+
+.forecast-container .forecast .forecast-content {
+    padding: 50px 20px 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+
+.forecast-container {
+    background: #323544;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+
+.forecast-container .forecast {
+    width: 33.33%;
+}
+
+.forecast-container .forecast .forecast-header {
+    background: rgba(0, 0, 0, 0.1);
+    padding: 10px;
+    text-align: center;
+    font-weight: 400;
+}
+
+.forecast-container .forecast.today .forecast-header::after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+.forecast-container .forecast.today .forecast-header .day {
+    float: left;
+}
+
+.forecast-container .forecast.today .forecast-header .date {
+    float: right;
+}
+
+.forecast-container .forecast.today .forecast-content {
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.forecast-container .forecast.today .location {
+    font-size: 18px;
+    font-size: 1.2857142857em;
+    font-weight: 400;
+}
+
+.forecast-container .forecast .forecast-content .degree {
+    font-size: 26px;
+    font-size: 1.7142857143em;
+    color: white;
+    font-weight: 700;
+}
+
+.forecast-container .forecast.today .degree .num {
+    font-size: 90px;
+    font-size: 4.429rem;
+    margin-right: 30px;
+}
+
+sup {
+    top: -0.5em;
+}
+
+p {
+    margin-top: 0;
+}
+
+sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+
+.forecast-container .forecast.today .degree .num, .forecast-container .forecast.today .degree .forecast-icon {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.forecast-container .forecast .forecast-content .forecast-icon {
+    margin-bottom: 20px;
+    height: 50px;
+}
+
+.custom {
+    color: #009ad8;
+    margin: 20px 0;
+}
+
+.forecast-container .forecast.today span {
+    margin-right: 20px;
+}
+
+.forecast-container .forecast:nth-child(2n) {
+    background-color: #262936;
+}
+
+.footer {
+    background: #262936;
+    padding: 50px 0;
+}
+
+.footer .subscribe-form {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.footer .subscribe-form input[type="text"] {
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+}
+
+.footer .subscribe-form input[type="submit"] {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+}
+
+form input[type="submit"] {
+    border: none;
+    background: #009ad8;
+    padding: 10px 20px;
+    border-radius: 30px;
+    color: white;
+}
+
+.social-links a {
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    -webkit-transition: 0.3s ease;
+    transition: 0.3s ease;
+    font-size: 20px;
+    font-size: 1.4285714286em;
+}
+.social-links a:hover{
+    color: white;
+    background: #009ad8;
+
+}
